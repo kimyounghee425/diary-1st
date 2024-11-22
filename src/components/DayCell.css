@@ -1,0 +1,48 @@
+.day-cell {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;
+  background-color: white; 
+  padding: 10px;
+}
+
+.circle-hover {
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  align-items: center; 
+  justify-content: center;;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.circle-hover:hover {
+  background-color: #f0f0f0;
+}
+
+.circle-hover:active {
+  color: white;
+  background-color: #303030;
+}
+
+.sunday {
+  color: red;
+}
+
+.today {
+  border: 2px dashed #f906bd;
+}
+
+.dot {
+  position: absolute; 
+  top: 8px;
+  right: 6px;
+  background-color: #016dfa;
+  color: white;
+  padding: 3px;
+  border-radius: 50%;
+}
