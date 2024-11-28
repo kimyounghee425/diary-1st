@@ -1,3 +1,6 @@
+// 하나의 커다란 함수 buildCalenderData 만 정의된 코드
+
+// export : 모듈의 내보내기. 다른 파일에서 이 함수를 갖다 쓸 수 있음
 export const buildCalendarData = (year, month) => {
   const calendar = []
   const firstDay = new Date(year, month - 1, 1)
